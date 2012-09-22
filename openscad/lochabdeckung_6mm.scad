@@ -14,13 +14,15 @@ module lochstoepsel() {
                     }
                 */
                 // Abdeckung oben
+                translate([0,0,3])
                 union() {
-                    translate([0,0,3]) cylinder(h=3, r=4);
+                    cylinder(h=3, r=3.5);
                     // unterer zylinder
-                    translate([0,0,3]) cylinder(h=1.5, r=5.5);
-                    translate([0,0,4.5])
+                    cylinder(h=1.5, r=5.0);
+                    // torus
+                    translate([0,0,1.5])
                         rotate_extrude(convexity = 10, $fn = 100)
-                        translate([4, 0, 0]) circle(r = 1.5, $fn = 100);
+                        translate([3.5, 0, 0]) circle(r = 1.5, $fn = 100);
                 }
                 // Schaft
                 difference() {
@@ -48,6 +50,6 @@ module lochstoepsel() {
     }
 }
 
-for ( y = [0 : 0] )
-    for ( x = [0 : 0] )
-        translate([x*10,y*10,6]) rotate([180,0,0]) lochstoepsel();
+for ( y = [0 : 4] )
+    for ( x = [0 : 4] )
+        translate([x*15,y*15,6]) rotate([180,0,0]) lochstoepsel();
