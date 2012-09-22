@@ -15,7 +15,7 @@
    id="svg4130"
    version="1.1"
    inkscape:version="0.48.1 r9760"
-   sodipodi:docname="mutliwii_motorposition.svg">
+   sodipodi:docname="quadcopter_layout.svg">
   <defs
      id="defs4132">
     <marker
@@ -60,10 +60,10 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.16981758"
-     inkscape:cx="1314.6787"
+     inkscape:cx="1100.5957"
      inkscape:cy="1507.5"
      inkscape:document-units="px"
-     inkscape:current-layer="g3806"
+     inkscape:current-layer="g3020"
      showgrid="false"
      inkscape:snap-global="true"
      inkscape:window-width="1366"
@@ -237,6 +237,40 @@
              d="m -398.24475,-1061.9147 0,85.01857"
              id="path3014"
              inkscape:connector-curvature="0" />
+        </g>
+        <g
+           id="g3011"
+           transform="matrix(1.1111111,0,0,1.1111111,97.817258,-491.70777)">
+          <path
+             sodipodi:type="arc"
+             style="fill:#0400a4;fill-opacity:0.2142857;stroke:none"
+             id="path3013"
+             sodipodi:cx="-120"
+             sodipodi:cy="55.219326"
+             sodipodi:rx="157.14285"
+             sodipodi:ry="157.14285"
+             d="m 37.142853,55.219326 c 0,86.787604 -70.355252,157.142854 -157.142853,157.142854 -86.7876,0 -157.14285,-70.35525 -157.14285,-157.142854 0,-86.787601 70.35525,-157.142856 157.14285,-157.142856 86.787601,0 157.142853,70.355255 157.142853,157.142856 z"
+             transform="matrix(2.5772728,0,0,2.5772728,-626.91184,-371.72826)" />
+          <path
+             transform="matrix(2.2909092,0,0,2.2909092,-661.27548,-355.91545)"
+             d="m 37.142853,55.219326 c 0,86.787604 -70.355252,157.142854 -157.142853,157.142854 -86.7876,0 -157.14285,-70.35525 -157.14285,-157.142854 0,-86.787601 70.35525,-157.142856 157.14285,-157.142856 86.787601,0 157.142853,70.355255 157.142853,157.142856 z"
+             sodipodi:ry="157.14285"
+             sodipodi:rx="157.14285"
+             sodipodi:cy="55.219326"
+             sodipodi:cx="-120"
+             id="path3015"
+             style="fill:#0400a4;fill-opacity:0.11904764;stroke:none"
+             sodipodi:type="arc" />
+          <path
+             sodipodi:type="arc"
+             style="fill:#d70002;fill-opacity:0.4265403;stroke:none"
+             id="path3017"
+             sodipodi:cx="-120"
+             sodipodi:cy="55.219326"
+             sodipodi:rx="157.14285"
+             sodipodi:ry="157.14285"
+             d="m 37.142853,55.219326 c 0,86.787604 -70.355252,157.142854 -157.142853,157.142854 -86.7876,0 -157.14285,-70.35525 -157.14285,-157.142854 0,-86.787601 70.35525,-157.142856 157.14285,-157.142856 86.787601,0 157.142853,70.355255 157.142853,157.142856 z"
+             transform="matrix(0.31567645,0,0,0.31567645,-898.30341,-246.84443)" />
         </g>
       </g>
     </g>

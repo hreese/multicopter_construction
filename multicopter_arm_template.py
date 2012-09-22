@@ -76,8 +76,8 @@ pagewidth, pageheight = 297, 210
 linewidth = 0.1
 
 # create the surface and context
-#surface = cairo.PDFSurface( "quad_bohrschablone.pdf", pagewidth * mm_to_points, pageheight * mm_to_points)
-surface = cairo.SVGSurface( "quad_bohrschablone.svg", pagewidth * mm_to_points, pageheight * mm_to_points)
+surface = cairo.PDFSurface( "quad_bohrschablone.pdf", pagewidth * mm_to_points, pageheight * mm_to_points)
+#surface = cairo.SVGSurface( "quad_bohrschablone.svg", pagewidth * mm_to_points, pageheight * mm_to_points)
 context = cairo.Context(surface)
 context.scale(mm_to_points, mm_to_points)
 
