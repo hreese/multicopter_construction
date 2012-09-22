@@ -8,13 +8,13 @@ module endabdeckung(ueberstand=0.5){
         difference() {
             union() {
                 // aussenwand innenteil
-                translate([0,0,4]) cube([8,8,8], center=true);
+                translate([0,0,2.5]) cube([8,8,5], center=true);
                 // riffel; 4 stück
-                for( i = [0:3] ) {
+                for( i = [0:2] ) {
                     //translate([0,0,1.5+i*1.75]) cube([8+2*ueberstand,8+2*ueberstand,1], center=true);
                     for (angle = [0 : 90 : 270]) {
-                        translate([0,0,1.5+i*1.75]) rotate([0,0,angle]) translate([4,0,0]) rotate([90,0,0])
-                            cylinder(h=8, r=ueberstand, center=true, $fn=3);
+                        translate([0,0,1.2+i*1.35]) rotate([0,0,angle]) translate([4,0,0]) rotate([90,0,0])
+                            scale([0.75,1,1]) cylinder(h=8, r=ueberstand, center=true, $fn=30);
                     }
                 }
             }

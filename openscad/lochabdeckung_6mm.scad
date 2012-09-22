@@ -13,6 +13,7 @@ module lochstoepsel() {
                     }
                 */
                 // Abdeckung oben
+                
                 translate([0,0,3])
                 union() {
                     cylinder(h=3, r=3.5);
@@ -23,6 +24,7 @@ module lochstoepsel() {
                         rotate_extrude(convexity = 10, $fn = 100)
                         translate([3.5, 0, 0]) circle(r = 1.5, $fn = 100);
                 }
+                
                 // Schaft
                 cylinder(h=3, r=3);
                 // Haltekegel unten
