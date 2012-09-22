@@ -17,6 +17,8 @@ module lochstoepsel() {
                 union() {
                     translate([0,0,3]) 
                         cylinder(h=3, r=4);
+                    translate([0,0,3]) 
+                        cylinder(h=1.5, r=5.5);
                     translate([0,0,4.5]) 
                         rotate_extrude(convexity = 10, $fn = 100)
                             translate([4, 0, 0]) circle(r = 1.5, $fn = 100);
