@@ -1,6 +1,5 @@
 $fn=100;
 
-
 module lochstoepsel() {
     difference() {
         difference() {
@@ -25,13 +24,12 @@ module lochstoepsel() {
                         translate([3.5, 0, 0]) circle(r = 1.5, $fn = 100);
                 }
                 // Schaft
-                difference() {
-                    cylinder(h=3, r=3);
-                }
+                cylinder(h=3, r=3);
                 // Haltekegel unten
                 cylinder(h=2, r1=3, r2=4);
             }
-            translate([0,0,-1]) cylinder(h=5, r=2);
+            // hohlraum in der mitte
+            translate([0,0,-1]) cylinder(h=4, r=2);
         }
         /*
         // ausschneidekreuz
@@ -50,6 +48,8 @@ module lochstoepsel() {
     }
 }
 
-for ( y = [0 : 4] )
-    for ( x = [0 : 4] )
+gridsize=0;
+
+for ( y = [0 : gridsize] )
+    for ( x = [0 : gridsize] )
         translate([x*15,y*15,6]) rotate([180,0,0]) lochstoepsel();
