@@ -31,12 +31,12 @@ module lochstoepsel() {
                 cylinder(h=2, r1=3, r2=4);
             }
             // hohlraum in der mitte
-            translate([0,0,-1]) cylinder(h=4, r=2);
+            translate([0,0,-2]) cylinder(h=4, r=1.6);
         }
         /*
         // ausschneidekreuz
         union() {
-            translate([0,0,1]) cube(size=[20,1,4], center=true);
+            rotate([0,0,0])   translate([0,0,1]) cube(size=[20,1,4], center=true);
             rotate([0,0,90])  translate([0,0,1]) cube(size=[20,1,4], center=true);
             rotate([0,0,45])  translate([0,0,1]) cube(size=[20,1,4], center=true);
             rotate([0,0,135]) translate([0,0,1]) cube(size=[20,1,4], center=true);
@@ -44,8 +44,9 @@ module lochstoepsel() {
         */
         // ausschneidekreuz
         union() {
-            translate([0,0,1]) cube(size=[20,2,4], center=true);
-            rotate([0,0,90])  translate([0,0,1]) cube(size=[20,2,4], center=true);
+		for ( rot = [0 : 90 : 90 ] ) {
+            rotate([0,0,rot]) translate([0,0,0.05]) cube(size=[20,2,4], center=true);
+            }
         }
     }
 }
