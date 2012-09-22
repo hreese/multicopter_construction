@@ -16,7 +16,7 @@ intersection(){
                 //translate([0,0,1.5+i*1.75]) cube([8+2*ueberstand,8+2*ueberstand,1], center=true);
                 for (angle = [0 : 90 : 270]) {
                      translate([0,0,1.5+i*1.75]) rotate([0,0,angle]) translate([4,0,0]) rotate([90,0,0])
-                        cylinder(h=8, r=ueberstand, center=true, $fn=10);
+                        cylinder(h=8, r=ueberstand, center=true, $fn=3);
                 }
             }
         }
@@ -24,6 +24,7 @@ intersection(){
         cube([6,6,30], center=true);
     }
     // überstehende kanten an den ecken des innenteils entfernen
-    rotate([0,0,45]) cube([sqrt(2)*8,sqrt(2)*8,30], center=true);
+    // rotate([0,0,45]) cube([sqrt(2)*8,sqrt(2)*8,30], center=true);
+    cylinder(h=30, r=sqrt(2)*8/2-0.2, $fn=200);
 }
 
