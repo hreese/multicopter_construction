@@ -9,7 +9,7 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   sodipodi:docname="lg_strut_01.dxf"
+   sodipodi:docname="lg_strut_01.svg"
    inkscape:version="0.48.1 r9760"
    version="1.1"
    id="svg2"
@@ -36,7 +36,9 @@
      inkscape:window-y="26"
      inkscape:window-maximized="1"
      units="mm"
-     inkscape:snap-global="false">
+     inkscape:snap-global="false"
+     showguides="true"
+     inkscape:guide-bbox="true">
     <inkscape:grid
        type="xygrid"
        id="grid3778"
@@ -44,6 +46,18 @@
        visible="true"
        enabled="true"
        snapvisiblegridlinesonly="true" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="56.568543,-34.345187"
+       id="guide3874" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="14.142136,106.06602"
+       id="guide3876" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="283.85287,60.609153"
+       id="guide3878" />
   </sodipodi:namedview>
   <metadata
      id="metadata7">
@@ -64,8 +78,9 @@
      transform="translate(0,-2.5390623e-6)">
     <path
        style="fill:#000000;fill-opacity:1;stroke:none"
-       d="m 0,1052.3622 44.90625,0 C 115.84698,984.80188 207.82542,939.11783 310,926.14344 l 0,-71.1875 C 198.83633,860.99569 93.90806,890.39175 0,938.33094 L 0,1052.3622 z M 93.125,942.54969 c 0,-11.86007 9.60868,-21.46875 21.46875,-21.46875 11.86007,0 21.5,9.60868 21.5,21.46875 0,11.86007 -9.63993,21.46875 -21.5,21.46875 -11.86007,0 -21.46875,-9.60868 -21.46875,-21.46875 z m 75.0625,-25.25 c 0,-8.91065 7.21435,-16.15625 16.125,-16.15625 8.91066,0 16.125,7.2456 16.125,16.15625 0,8.91065 -7.21434,16.125 -16.125,16.125 -8.91065,0 -16.125,-7.21435 -16.125,-16.125 z m 74.71875,-20.21875 c 0,-6.6947 5.4303,-12.125 12.125,-12.125 6.6947,0 12.09375,5.4303 12.09375,12.125 0,6.6947 -5.39905,12.125 -12.09375,12.125 -6.6947,0 -12.125,-5.4303 -12.125,-12.125 z"
+       d="m 0,1052.3622 58.038233,0 C 128.97896,984.80188 182.57161,943.15844 284.74619,930.18405 l 0,-71.1875 C 173.58252,865.0363 93.90806,897.46282 0,945.40201 z"
        id="rect3816"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccc" />
   </g>
 </svg>
